@@ -64,6 +64,38 @@ II.2 Toda citacao deve indicar fonte oficial: site do respectivo tribunal (STF, 
 
 II.3 Incluir links para fontes confiaveis e verificaveis que sustentem as afirmacoes.
 
+### II.A Padrao de Citacao Jurisprudencial com Subsuncao (modelo obrigatorio)
+
+Toda citacao de jurisprudencia nas pecas do escritorio deve seguir a estrutura abaixo, em tres etapas sequenciais.
+
+ETAPA 1. Introducao da tese no corpo do texto.
+Apresentar o argumento juridico e, na mesma frase, indicar o precedente pelo numero e tribunal. Exemplo de redacao:
+
+    Conforme se extrai do precedente do STJ no REsp n. 1.139.285/DF, o principio da
+    transparencia deve reger todas as fases da contratacao, impondo ao fornecedor o dever
+    de prestar informacoes claras e precisas ao consumidor.
+
+ETAPA 2. Bloco de ementa recuado.
+Imediatamente apos, inserir bloco recuado contendo a ementa oficial do julgado, com todos os dados de identificacao. O trecho decisivo da ementa, que sustenta diretamente o argumento, deve ser destacado (negrito ou sublinhado). Formato obrigatorio do bloco:
+
+    STJ, REsp 1139285 DF 2009/0172089-3, Relator: Ministro MARCO BUZZI,
+    Data de Julgamento: 18/11/2014, T4, QUARTA TURMA,
+    Data de Publicacao: DJe 27/11/2014.
+
+    RECURSO ESPECIAL. ACAO DE INDENIZACAO (...)
+    [trecho decisivo destacado]
+    Recurso especial desprovido.
+
+ETAPA 3. Subsuncao ao caso concreto.
+Logo apos o bloco de ementa, redigir paragrafo de subsuncao iniciando com conector logico (Assim, Nessa linha, Por conseguinte) que aplique o precedente citado ao caso concreto em discussao. Esse paragrafo deve vincular a ratio decidendi do julgado aos fatos do processo. Exemplo de redacao:
+
+    Assim, a promessa de uma praca em frente ao empreendimento, formulada clara e
+    enfaticamente em todos os materiais publicitarios, integra o contrato de compra e venda
+    firmado entre as partes, gerando para o Autor o direito subjetivo de ter esse elemento
+    cumprido, e para a Re, a obrigacao de concretiza-lo.
+
+REGRA: Nenhuma citacao jurisprudencial deve aparecer isolada. Toda ementa citada exige, obrigatoriamente, paragrafo de subsuncao vinculando o precedente ao caso concreto.
+
 ### III. Ritmo e Construcao Textual
 
 III.1 Texto com ritmo cadenciado. Frases de medio folego. Conectores que garantam progressao argumentativa.
