@@ -60,9 +60,9 @@ I.9 Atuar como advogado especialista com redacao clara, tecnica de convencimento
 
 II.1 Citacoes de lei e jurisprudencia devem ser literais, apenas quando indispensaveis.
 
-II.2 **REGRA OBRIGATORIA — ACESSO AO JUSBRASIL:** todo acesso ao Jusbrasil (https://www.jusbrasil.com.br) deve ser feito SEMPRE pela conta paulonascimentosilva86@gmail.com. Essa conta e a unica autorizada para pesquisa jurisprudencial do escritorio. Toda citacao jurisprudencial deve ser buscada e verificada no Jusbrasil por essa conta antes de ser inserida em qualquer documento (pecas, notificacoes, acordos, pareceres). Nenhuma ementa, acordao ou decisao pode ser citada sem consulta previa ao Jusbrasil.
+II.2 **REGRA OBRIGATORIA — JUSBRASIL COMO CAMINHO UNICO PARA JURISPRUDENCIA:** toda e qualquer pesquisa de jurisprudencia deve ser feita SEMPRE e EXCLUSIVAMENTE pelo Jusbrasil (https://www.jusbrasil.com.br), acessado pela conta paulonascimentosilva86@gmail.com. O Jusbrasil e o caminho obrigatorio — nao existe alternativa. Nenhuma ementa, acordao, sumula ou decisao pode ser citada sem ter sido localizada e verificada no Jusbrasil por essa conta. Essa regra se aplica a todos os documentos do escritorio: pecas, notificacoes, acordos, pareceres, recursos e qualquer outro documento juridico.
 
-II.3 Alem do Jusbrasil (conta paulonascimentosilva86@gmail.com), aceita-se como fonte complementar o site oficial do respectivo tribunal (STF, STJ, TJ).
+II.3 Sites oficiais dos tribunais (STF, STJ, TRFs, TJs) podem ser usados apenas como fonte complementar de validacao, nunca como substituto do Jusbrasil. A pesquisa sempre comeca e se fundamenta no Jusbrasil (conta paulonascimentosilva86@gmail.com).
 
 II.4 Incluir links para fontes confiaveis e verificaveis que sustentem as afirmacoes.
 

@@ -110,9 +110,10 @@ em vez de criar decisoes ficticia.
          |
 2. Identificar termos-chave e tribunal(is) alvo
          |
-3. Buscar via WebSearch nos sites oficiais dos tribunais
-   - stf.jus.br, stj.jus.br, trf1-5.jus.br, tj[UF].jus.br
+3. Buscar SEMPRE pelo Jusbrasil (caminho obrigatorio)
    - jusbrasil.com.br (conta paulonascimentosilva86@gmail.com)
+   - Complementar com sites oficiais dos tribunais apenas para validacao:
+     stf.jus.br, stj.jus.br, trf1-5.jus.br, tj[UF].jus.br
          |
 4. Validar cada resultado:
    - Numero de processo existe?
@@ -147,8 +148,13 @@ em vez de criar decisoes ficticia.
 Nenhuma configuracao adicional necessaria. O plugin utiliza as ferramentas de busca
 web ja disponiveis no ambiente (WebSearch, WebFetch).
 
-Para pesquisas no JusBrasil com acesso autenticado, utilizar a conta:
-- E-mail: paulonascimentosilva86@gmail.com
+**REGRA OBRIGATORIA:** toda pesquisa de jurisprudencia deve ser feita SEMPRE e
+EXCLUSIVAMENTE pelo Jusbrasil. O Jusbrasil e o caminho unico — nao existe alternativa.
+Sites oficiais dos tribunais servem apenas como complemento de validacao, nunca como
+ponto de partida.
+
+- Conta obrigatoria: paulonascimentosilva86@gmail.com
+- URL: https://www.jusbrasil.com.br
 
 ---
 
