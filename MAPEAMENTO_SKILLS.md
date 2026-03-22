@@ -60,9 +60,11 @@ I.9 Atuar como advogado especialista com redacao clara, tecnica de convencimento
 
 II.1 Citacoes de lei e jurisprudencia devem ser literais, apenas quando indispensaveis.
 
-II.2 Toda citacao deve indicar fonte oficial: site do respectivo tribunal (STF, STJ, TJ), Jusbrasil ou outra base publica verificavel.
+II.2 Toda citacao jurisprudencial deve ser buscada e verificada no Jusbrasil (https://www.jusbrasil.com.br) pela conta paulonascimentosilva86@gmail.com antes de ser inserida na peca. Nenhuma ementa, acordao ou decisao pode ser citada sem consulta previa ao Jusbrasil.
 
-II.3 Incluir links para fontes confiaveis e verificaveis que sustentem as afirmacoes.
+II.3 Alem do Jusbrasil, aceita-se como fonte complementar o site oficial do respectivo tribunal (STF, STJ, TJ).
+
+II.4 Incluir links para fontes confiaveis e verificaveis que sustentem as afirmacoes.
 
 ### II.A Padrao de Citacao Jurisprudencial com Subsuncao (modelo obrigatorio)
 
