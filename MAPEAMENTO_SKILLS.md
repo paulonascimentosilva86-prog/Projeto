@@ -406,6 +406,21 @@ DIFERENC.   ████████         4 skills (competitivo)
 
 ---
 
+## Ferramentas de Apoio ao Pipeline Juridico
+
+| Ferramenta | Arquivo | Funcao |
+|---|---|---|
+| **Contextos Juridicos** | CONTEXTOS_JURIDICOS.md | Troca rapida de area do direito com `/contexto [area]` — ativa legislacao, skills, modelos e jurisprudencia da area |
+| **Workflow RIPEV** | WORKFLOW_PECAS_JURIDICAS.md | 5 fases obrigatorias para elaboracao de pecas: Pesquisar → Inovar → Planejar → Executar → Validar |
+| **Personas Juridicas** | PERSONAS_JURIDICAS.md | 8 especialistas virtuais (Condominialista, Trabalhista, Civilista, Imobiliarista, Familiarista, Calculista, Estrategista) com `/persona [nome]` |
+| **Jurisprudencia Nacional** | PLUGIN_JURISPRUDENCIA_NACIONAL.md | Pesquisa jurisprudencial obrigatoria via Jusbrasil em todos os tribunais |
+| **Modelo de Acordo** | MODELO_ACORDO_CONDOMINIAL.md | Template para acordos condominiais (judicial e extrajudicial) |
+| **Modelo de Notificacao** | MODELO_NOTIFICACAO_CONDOMINIAL.md | Template para notificacoes extrajudiciais condominiais |
+
+Inspirado em: [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) — curadoria de ferramentas da comunidade Claude Code (ClaudeCTX, RIPER Workflow, SuperClaude Framework).
+
+---
+
 *Mapeamento completo para **Paulo Nascimento - Advocacia Integrada***
-*62 skills | 11 categorias | 3 fases + Quick Wins*
-*Gerado em 22/03/2026*
+*62 skills | 11 categorias | 3 fases + Quick Wins | 6 ferramentas de apoio*
+*Atualizado em 23/03/2026*
