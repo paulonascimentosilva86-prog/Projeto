@@ -13,24 +13,52 @@
 | Perfil | Full (16 ferramentas ativas) |
 | Versao | 1.1.0 |
 | Conta Google | paulo.nascimento@pnadvintegrada.com |
-| Autenticacao | **PENDENTE** (requer login via navegador na primeira utilizacao) |
+| Autenticacao | **PENDENTE** (bloqueio de rede neste ambiente; auto-login configurado para ambiente local) |
+| Auto-login | Configurado (email pre-definido, senha sera solicitada no primeiro uso) |
+| Chrome | Instalado (symlink para Chromium do Playwright) |
+| Config | `/root/.config/notebooklm-mcp/settings.json` (profile: full, autoLogin: true) |
 
 ---
 
-## Primeiro Login (obrigatorio antes do uso)
+## Autenticacao — Estado Atual e Proximos Passos
 
-Na primeira sessao do Claude Code com acesso a navegador, executar:
+### Bloqueio identificado (ambiente cloud)
 
+O proxy deste ambiente bloqueia `notebooklm.google.com` (HTTP 403, `host_not_allowed`).
+O `accounts.google.com` responde normalmente, mas o redirecionamento para o NotebookLM falha.
+
+### O que ja foi feito:
+
+1. MCP instalado e 16 ferramentas respondendo (testado com get_health, list_notebooks, etc.)
+2. Chrome disponibilizado via symlink do Chromium do Playwright
+3. Xvfb (display virtual) configurado e testado
+4. Auto-login configurado em `settings.json` e nas env vars do MCP:
+   - `AUTO_LOGIN_ENABLED=true`
+   - `LOGIN_EMAIL=paulo.nascimento@pnadvintegrada.com`
+5. Senha **nao armazenada** em arquivo (sera solicitada ou passada via `LOGIN_PASSWORD` env var)
+
+### Para completar o login (ambiente local ou com acesso a internet pleno):
+
+**Opcao 1: Auto-login (recomendado)**
+Passar a senha como variavel de ambiente na sessao:
+```bash
+export LOGIN_PASSWORD="[sua_senha]"
+```
+O MCP fara o login automaticamente ao abrir o navegador.
+
+**Opcao 2: Login interativo**
+Na sessao do Claude Code com navegador:
 ```
 "Log me in to NotebookLM com a conta paulo.nascimento@pnadvintegrada.com"
 ```
+O MCP abrira o Chrome para login manual.
 
-Isso ativara a ferramenta `setup_auth` do MCP, que abre um navegador Chrome para autenticacao Google. Apos o login, as credenciais ficam salvas em `/root/.local/share/notebooklm-mcp/chrome_profile/` e persistem entre sessoes.
-
-Para trocar de conta ou reautenticar:
+**Opcao 3: Re-autenticacao**
 ```
 "Re-authenticate no NotebookLM com paulo.nascimento@pnadvintegrada.com"
 ```
+
+Apos o login, as credenciais ficam salvas em `/root/.local/share/notebooklm-mcp/chrome_profile/` e persistem por 24h.
 
 ---
 
