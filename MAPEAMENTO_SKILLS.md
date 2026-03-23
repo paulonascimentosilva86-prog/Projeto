@@ -416,11 +416,12 @@ DIFERENC.   ████████         4 skills (competitivo)
 | **Jurisprudencia Nacional** | PLUGIN_JURISPRUDENCIA_NACIONAL.md | Pesquisa jurisprudencial obrigatoria via Jusbrasil em todos os tribunais |
 | **Modelo de Acordo** | MODELO_ACORDO_CONDOMINIAL.md | Template para acordos condominiais (judicial e extrajudicial) |
 | **Modelo de Notificacao** | MODELO_NOTIFICACAO_CONDOMINIAL.md | Template para notificacoes extrajudiciais condominiais |
+| **NotebookLM MCP** | INTEGRACAO_NOTEBOOKLM.md | Acervo de conhecimento do escritorio via Google NotebookLM (Gemini 2.5 + RAG), 16 ferramentas, conta paulo.nascimento@pnadvintegrada.com |
 
-Inspirado em: [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) — curadoria de ferramentas da comunidade Claude Code (ClaudeCTX, RIPER Workflow, SuperClaude Framework).
+Inspirado em: [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) — curadoria de ferramentas da comunidade Claude Code (ClaudeCTX, RIPER Workflow, SuperClaude Framework, NotebookLM MCP).
 
 ---
 
 *Mapeamento completo para **Paulo Nascimento - Advocacia Integrada***
-*62 skills | 11 categorias | 3 fases + Quick Wins | 6 ferramentas de apoio*
+*62 skills | 11 categorias | 3 fases + Quick Wins | 7 ferramentas de apoio*
 *Atualizado em 23/03/2026*
