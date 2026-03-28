@@ -1,6 +1,7 @@
 ---
 title: "{{title}}"
 tipo: processo
+data: "{{date:YYYY-MM-DD}}"
 numero_processo: ""
 cliente: "[[]]"
 area: ""

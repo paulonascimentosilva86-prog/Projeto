@@ -1,6 +1,7 @@
 ---
 title: MOC - Familia
 tipo: moc
+data: 2026-03-28
 area: Familia
 tags:
   - moc

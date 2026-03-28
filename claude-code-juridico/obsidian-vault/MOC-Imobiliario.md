@@ -1,6 +1,7 @@
 ---
 title: MOC - Imobiliario
 tipo: moc
+data: 2026-03-28
 area: Imobiliario
 tags:
   - moc

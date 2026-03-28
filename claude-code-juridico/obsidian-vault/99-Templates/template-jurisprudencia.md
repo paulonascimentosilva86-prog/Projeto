@@ -1,6 +1,7 @@
 ---
 title: "{{title}}"
 tipo: jurisprudencia
+data: "{{date:YYYY-MM-DD}}"
 tribunal: ""
 numero_acordao: ""
 relator: ""

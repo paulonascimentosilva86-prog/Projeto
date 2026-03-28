@@ -1,6 +1,7 @@
 ---
 title: MOC - Civel
 tipo: moc
+data: 2026-03-28
 area: Civel
 tags:
   - moc

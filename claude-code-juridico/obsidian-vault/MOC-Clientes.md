@@ -1,6 +1,7 @@
 ---
 title: MOC - Clientes
 tipo: moc
+data: 2026-03-28
 tags:
   - moc
   - cliente

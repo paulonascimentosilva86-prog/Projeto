@@ -1,6 +1,7 @@
 ---
 title: MOC - Trabalhista
 tipo: moc
+data: 2026-03-28
 area: Trabalhista
 tags:
   - moc

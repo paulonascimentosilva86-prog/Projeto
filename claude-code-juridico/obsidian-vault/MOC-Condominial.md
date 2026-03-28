@@ -1,6 +1,7 @@
 ---
 title: MOC - Condominial
 tipo: moc
+data: 2026-03-28
 area: Condominial
 tags:
   - moc
