@@ -12,7 +12,7 @@ See: .planning/PROJECT.md (updated 2026-03-28)
 Phase: 1 of 6 (Calculadoras Blindadas)
 Plan: 0 of ? in current phase
 Status: Ready to plan
-Last activity: 2026-03-28 — Roadmap criado, pronto para planejar Phase 1
+Last activity: 2026-03-28 — Roadmap criado com 6 fases, 27 requirements mapeados, pronto para planejar Phase 1
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -42,9 +42,9 @@ Progress: [░░░░░░░░░░] 0%
 Decisions are logged in PROJECT.md Key Decisions table.
 Recent decisions affecting current work:
 
-- Roadmap: Priorizar testes de calculadoras antes de novas skills (risco crítico)
-- Roadmap: Hooks bloqueantes (exit 1) — alertas ignoráveis não previnem erros
-- Roadmap: Radar de Prazos como primeira skill nova (perda de prazo é o erro mais grave)
+- Roadmap: Calculadoras em Phase 1 — risco crítico, erro causa prejuízo real
+- Roadmap: Hooks bloqueantes em Phase 2 — exit 1 obrigatório, alertas ignoráveis não previnem erros
+- Roadmap: Radar de Prazos em Phase 4 — perda de prazo é o erro mais grave da advocacia
 
 ### Pending Todos
 
@@ -57,5 +57,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-03-28
-Stopped at: Roadmap criado e aprovado — Phase 1 pronta para /gsd:plan-phase 1
+Stopped at: Roadmap finalizado — 6 fases, 27/27 requirements mapeados, STATE.md inicializado
 Resume file: None
