@@ -117,3 +117,13 @@ None - no external service configuration required.
 ---
 *Phase: 01-calculadoras-blindadas*
 *Completed: 2026-03-28*
+
+## Self-Check: PASSED
+
+- FOUND: src/calculadoras/distrato.ts
+- FOUND: tests/calculadoras/distrato.test.ts
+- FOUND: .planning/phases/01-calculadoras-blindadas/01-03-SUMMARY.md
+- FOUND: 7f139d0 (RED tests commit)
+- FOUND: f0c1843 (GREEN implementation commit)
+- FOUND: 51a733c (docs metadata commit)
+- npx vitest run tests/calculadoras/distrato.test.ts: 9 passed / 0 failed
