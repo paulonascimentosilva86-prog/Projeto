@@ -36,8 +36,8 @@ Plans:
 - [x] 01-01-PLAN.md — Infraestrutura: Vitest + decimal.js + decimal-utils.ts (CALC-06)
 - [x] 01-02-PLAN.md — Calculadora condominial: multa 2%, juros 1%/mes, honorarios 30% (CALC-01)
 - [ ] 01-03-PLAN.md — Calculadora distrato: retencao 25%/50%, Lei 13.786/2018 (CALC-02)
-- [ ] 01-04-PLAN.md — Calculadora aluguel: IGP-M, IPCA, INPC, reajuste acumulado (CALC-03)
-- [ ] 01-05-PLAN.md — Calculadora insalubridade/periculosidade: graus, NRs, reflexos (CALC-04)
+- [x] 01-04-PLAN.md — Calculadora aluguel: IGP-M, IPCA, INPC, reajuste acumulado (CALC-03)
+- [x] 01-05-PLAN.md — Calculadora insalubridade/periculosidade: graus, NRs, reflexos (CALC-04)
 - [ ] 01-06-PLAN.md — Simulador reclamatoria: 3 cenarios, FGTS+40%, projecoes (CALC-05)
 
 ### Phase 2: Hooks Bloqueantes
@@ -102,7 +102,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Calculadoras Blindadas | 2/6 | In Progress|  |
+| 1. Calculadoras Blindadas | 4/6 | In Progress|  |
 | 2. Hooks Bloqueantes | 0/? | Not started | - |
 | 3. Linter Jurídico | 0/? | Not started | - |
 | 4. Radar de Prazos | 0/? | Not started | - |

@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 01-02-PLAN.md (calcularCondominial TDD)
-last_updated: "2026-03-28T21:03:45.149Z"
+stopped_at: Completed 01-04-PLAN.md
+last_updated: "2026-03-28T21:04:38.198Z"
 last_activity: 2026-03-28
 progress:
   total_phases: 6
   completed_phases: 0
   total_plans: 6
-  completed_plans: 2
+  completed_plans: 5
   percent: 0
 ---
 
@@ -26,7 +26,7 @@ See: .planning/PROJECT.md (updated 2026-03-28)
 ## Current Position
 
 Phase: 01 (calculadoras-blindadas) — EXECUTING
-Plan: 3 of 6
+Plan: 5 of 6
 Status: Ready to execute
 Last activity: 2026-03-28
 
@@ -54,6 +54,7 @@ Progress: [░░░░░░░░░░] 0%
 *Updated after each plan completion*
 | Phase 01-calculadoras-blindadas P01-01 | 1 | 2 tasks | 6 files |
 | Phase 01 P02 | 10 | 2 tasks | 2 files |
+| Phase 01-calculadoras-blindadas P04 | 10 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -69,6 +70,8 @@ Recent decisions affecting current work:
 - [Phase 01-calculadoras-blindadas]: Funcoes TypeScript puras espelham formulas dos commands Markdown para testes deterministicos sem depender do LLM
 - [Phase 01]: Correcao INPC = principal * (fatorINPC - 1), nao composta — compativel com formula do command original
 - [Phase 01]: Arredondamento aplicado apenas no resultado final via arredondar(), nao em valores intermediarios
+- [Phase 01-calculadoras-blindadas]: Indice negativo bloqueado por padrao (permitirReducao=false) alinhado com pratica contratual brasileira
+- [Phase 01-calculadoras-blindadas]: Reajuste acumulado por produto de fatores sequenciais nao soma dos percentuais
 
 ### Pending Todos
 
@@ -80,6 +83,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-28T21:03:45.146Z
-Stopped at: Completed 01-02-PLAN.md (calcularCondominial TDD)
+Last session: 2026-03-28T21:04:25.606Z
+Stopped at: Completed 01-04-PLAN.md
 Resume file: None
