@@ -30,7 +30,15 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. Cada calculadora tem pelo menos um teste com valor de entrada e resultado esperado fixos (ex: multa 2% sobre R$ 1.000 = R$ 20,00; retenção distrato 25% sobre R$ 200.000 = R$ 50.000,00)
   3. Nenhum arquivo de cálculo usa operações de ponto flutuante nativo — decimal.js com ROUND_HALF_UP está em uso em todos os módulos de cálculo
   4. A calculadora de reclamatória cobre os 3 cenários (sem justa causa, justa causa, pedido de demissão) incluindo FGTS+40% e reflexos sobre verbas variáveis
-**Plans**: TBD
+**Plans**: 6 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Infraestrutura: Vitest + decimal.js + decimal-utils.ts (CALC-06)
+- [ ] 01-02-PLAN.md — Calculadora condominial: multa 2%, juros 1%/mes, honorarios 30% (CALC-01)
+- [ ] 01-03-PLAN.md — Calculadora distrato: retencao 25%/50%, Lei 13.786/2018 (CALC-02)
+- [ ] 01-04-PLAN.md — Calculadora aluguel: IGP-M, IPCA, INPC, reajuste acumulado (CALC-03)
+- [ ] 01-05-PLAN.md — Calculadora insalubridade/periculosidade: graus, NRs, reflexos (CALC-04)
+- [ ] 01-06-PLAN.md — Simulador reclamatoria: 3 cenarios, FGTS+40%, projecoes (CALC-05)
 
 ### Phase 2: Hooks Bloqueantes
 **Goal**: Petições incompletas são rejeitadas com exit 1 antes de chegarem ao Claude, e essa garantia é verificada por testes automatizados
@@ -94,7 +102,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Calculadoras Blindadas | 0/? | Not started | - |
+| 1. Calculadoras Blindadas | 0/6 | Not started | - |
 | 2. Hooks Bloqueantes | 0/? | Not started | - |
 | 3. Linter Jurídico | 0/? | Not started | - |
 | 4. Radar de Prazos | 0/? | Not started | - |
