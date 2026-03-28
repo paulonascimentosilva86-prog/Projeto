@@ -33,7 +33,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 6 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — Infraestrutura: Vitest + decimal.js + decimal-utils.ts (CALC-06)
+- [x] 01-01-PLAN.md — Infraestrutura: Vitest + decimal.js + decimal-utils.ts (CALC-06)
 - [ ] 01-02-PLAN.md — Calculadora condominial: multa 2%, juros 1%/mes, honorarios 30% (CALC-01)
 - [ ] 01-03-PLAN.md — Calculadora distrato: retencao 25%/50%, Lei 13.786/2018 (CALC-02)
 - [ ] 01-04-PLAN.md — Calculadora aluguel: IGP-M, IPCA, INPC, reajuste acumulado (CALC-03)

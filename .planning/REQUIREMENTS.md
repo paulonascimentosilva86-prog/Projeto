@@ -14,7 +14,7 @@
 - [ ] **CALC-03**: Testes automatizados para calculadora de reajuste de aluguel (IGP-M, IPCA, INPC)
 - [ ] **CALC-04**: Testes automatizados para calculadora de insalubridade/periculosidade (graus, NRs, base de cálculo, reflexos)
 - [ ] **CALC-05**: Testes automatizados para simulador de reclamatória (verbas rescisórias, FGTS+40%, reflexos, 3 cenários)
-- [ ] **CALC-06**: Usar decimal.js com ROUND_HALF_UP para precisão financeira em todos os cálculos
+- [x] **CALC-06**: Usar decimal.js com ROUND_HALF_UP para precisão financeira em todos os cálculos
 
 ### Hooks (HOOK)
 
@@ -83,7 +83,7 @@
 | CALC-03 | Phase 1 | Pending |
 | CALC-04 | Phase 1 | Pending |
 | CALC-05 | Phase 1 | Pending |
-| CALC-06 | Phase 1 | Pending |
+| CALC-06 | Phase 1 | Complete |
 | HOOK-01 | Phase 2 | Pending |
 | HOOK-02 | Phase 2 | Pending |
 | HOOK-03 | Phase 2 | Pending |
