@@ -9,7 +9,7 @@
 
 ### Calculadoras (CALC)
 
-- [ ] **CALC-01**: Testes automatizados para calculadora condominial com valores conhecidos (multa 2%, juros 1%/mês, INPC, honorários 30%)
+- [x] **CALC-01**: Testes automatizados para calculadora condominial com valores conhecidos (multa 2%, juros 1%/mês, INPC, honorários 30%)
 - [ ] **CALC-02**: Testes automatizados para calculadora de distrato imobiliário (retenção 25%/50%, Lei 13.786/2018)
 - [ ] **CALC-03**: Testes automatizados para calculadora de reajuste de aluguel (IGP-M, IPCA, INPC)
 - [ ] **CALC-04**: Testes automatizados para calculadora de insalubridade/periculosidade (graus, NRs, base de cálculo, reflexos)
@@ -78,7 +78,7 @@
 
 | REQ-ID | Phase | Status |
 |--------|-------|--------|
-| CALC-01 | Phase 1 | Pending |
+| CALC-01 | Phase 1 | Complete |
 | CALC-02 | Phase 1 | Pending |
 | CALC-03 | Phase 1 | Pending |
 | CALC-04 | Phase 1 | Pending |

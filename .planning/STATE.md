@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 01-calculadoras-blindadas/01-01-PLAN.md
-last_updated: "2026-03-28T21:00:32.495Z"
+stopped_at: Completed 01-02-PLAN.md (calcularCondominial TDD)
+last_updated: "2026-03-28T21:03:45.149Z"
 last_activity: 2026-03-28
 progress:
   total_phases: 6
   completed_phases: 0
   total_plans: 6
-  completed_plans: 1
+  completed_plans: 2
   percent: 0
 ---
 
@@ -26,7 +26,7 @@ See: .planning/PROJECT.md (updated 2026-03-28)
 ## Current Position
 
 Phase: 01 (calculadoras-blindadas) — EXECUTING
-Plan: 2 of 6
+Plan: 3 of 6
 Status: Ready to execute
 Last activity: 2026-03-28
 
@@ -53,6 +53,7 @@ Progress: [░░░░░░░░░░] 0%
 
 *Updated after each plan completion*
 | Phase 01-calculadoras-blindadas P01-01 | 1 | 2 tasks | 6 files |
+| Phase 01 P02 | 10 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -66,6 +67,8 @@ Recent decisions affecting current work:
 - Roadmap: Radar de Prazos em Phase 4 — perda de prazo é o erro mais grave da advocacia
 - [Phase 01-calculadoras-blindadas]: Vitest 3.x com globals:true e decimal.js ROUND_HALF_UP como base de testes para todas as calculadoras
 - [Phase 01-calculadoras-blindadas]: Funcoes TypeScript puras espelham formulas dos commands Markdown para testes deterministicos sem depender do LLM
+- [Phase 01]: Correcao INPC = principal * (fatorINPC - 1), nao composta — compativel com formula do command original
+- [Phase 01]: Arredondamento aplicado apenas no resultado final via arredondar(), nao em valores intermediarios
 
 ### Pending Todos
 
@@ -77,6 +80,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-28T21:00:32.492Z
-Stopped at: Completed 01-calculadoras-blindadas/01-01-PLAN.md
+Last session: 2026-03-28T21:03:45.146Z
+Stopped at: Completed 01-02-PLAN.md (calcularCondominial TDD)
 Resume file: None
