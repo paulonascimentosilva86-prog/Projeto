@@ -38,7 +38,7 @@ Plans:
 - [x] 01-03-PLAN.md — Calculadora distrato: retencao 25%/50%, Lei 13.786/2018 (CALC-02)
 - [x] 01-04-PLAN.md — Calculadora aluguel: IGP-M, IPCA, INPC, reajuste acumulado (CALC-03)
 - [x] 01-05-PLAN.md — Calculadora insalubridade/periculosidade: graus, NRs, reflexos (CALC-04)
-- [ ] 01-06-PLAN.md — Simulador reclamatoria: 3 cenarios, FGTS+40%, projecoes (CALC-05)
+- [x] 01-06-PLAN.md — Simulador reclamatoria: 3 cenarios, FGTS+40%, projecoes (CALC-05)
 
 ### Phase 2: Hooks Bloqueantes
 **Goal**: Petições incompletas são rejeitadas com exit 1 antes de chegarem ao Claude, e essa garantia é verificada por testes automatizados
