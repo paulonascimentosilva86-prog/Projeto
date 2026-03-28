@@ -4,7 +4,7 @@ Sua tarefa e criar a daily note de hoje e gerar um resumo do dia.
 
 ## O que fazer:
 
-1. **Criar daily note** com a data de hoje no formato `YYYY-MM-DD.md`
+1. **Criar daily note** em `Diario/YYYY-MM-DD.md` (ex: `Diario/2026-03-28.md`)
 2. **Buscar prazos** que vencem hoje ou amanha nos processos em `02-Processos/`
 3. **Listar audiencias** agendadas para hoje
 4. **Puxar tarefas pendentes** de daily notes anteriores (tarefas nao marcadas)

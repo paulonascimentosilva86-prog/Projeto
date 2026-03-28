@@ -1,8 +1,9 @@
 ---
-title: "{{date:YYYY-MM-DD}}"
-tipo: daily
+titulo: "{{date:YYYY-MM-DD}}"
+tipo: diario
+data: "{{date:YYYY-MM-DD}}"
 tags:
-  - daily
+  - diario
 ---
 
 # {{date:dddd, DD/MM/YYYY}}
