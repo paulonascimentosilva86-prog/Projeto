@@ -76,18 +76,38 @@
 
 ## Traceability
 
-*Preenchido pelo roadmap*
-
-| REQ-ID | Phase |
-|--------|-------|
-| CALC-01..06 | |
-| HOOK-01..05 | |
-| LINT-01..04 | |
-| PRAZO-01..04 | |
-| EXTR-01..03 | |
-| CONST-01..05 | |
+| REQ-ID | Phase | Status |
+|--------|-------|--------|
+| CALC-01 | Phase 1 | Pending |
+| CALC-02 | Phase 1 | Pending |
+| CALC-03 | Phase 1 | Pending |
+| CALC-04 | Phase 1 | Pending |
+| CALC-05 | Phase 1 | Pending |
+| CALC-06 | Phase 1 | Pending |
+| HOOK-01 | Phase 2 | Pending |
+| HOOK-02 | Phase 2 | Pending |
+| HOOK-03 | Phase 2 | Pending |
+| HOOK-04 | Phase 2 | Pending |
+| HOOK-05 | Phase 2 | Pending |
+| LINT-01 | Phase 3 | Pending |
+| LINT-02 | Phase 3 | Pending |
+| LINT-03 | Phase 3 | Pending |
+| LINT-04 | Phase 3 | Pending |
+| PRAZO-01 | Phase 4 | Pending |
+| PRAZO-02 | Phase 4 | Pending |
+| PRAZO-03 | Phase 4 | Pending |
+| PRAZO-04 | Phase 4 | Pending |
+| EXTR-01 | Phase 5 | Pending |
+| EXTR-02 | Phase 5 | Pending |
+| EXTR-03 | Phase 5 | Pending |
+| CONST-01 | Phase 6 | Pending |
+| CONST-02 | Phase 6 | Pending |
+| CONST-03 | Phase 6 | Pending |
+| CONST-04 | Phase 6 | Pending |
+| CONST-05 | Phase 6 | Pending |
 
 ---
 
 *Requirements defined: 2026-03-28*
 *27 requirements across 6 categories*
+*Traceability filled: 2026-03-28*
