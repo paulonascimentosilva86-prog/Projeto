@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "command": "echo '✓ Documento juridico salvo com sucesso'"
+      }
+    ],
+    "Notification": [
+      {
+        "command": "echo '[ALERTA JURIDICO] Tarefa concluida'"
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Write",
+      "Edit",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(date *)",
+      "Bash(python3 *)"
+    ]
+  }
+}
