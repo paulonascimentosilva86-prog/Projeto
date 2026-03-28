@@ -84,6 +84,49 @@ Areas: Trabalhista, Civel, Condominial, Imobiliario, Familia/Sucessoes.
 - **Agente Familia** - Especialista em familia e sucessoes
 - **Agente Produtividade** - Gestao, comunicacao e produtividade
 
+## Obsidian - Segundo Cerebro com IA (kepano/obsidian-skills)
+Integracao Claude Code + Obsidian para "Segundo Cerebro com IA".
+Tudo local, tudo Markdown, sem lock-in, gratis para uso pessoal.
+Repositorio: github.com/kepano/obsidian-skills (14.9k+ stars, MIT License)
+
+### Skills Instaladas (kepano/obsidian-skills)
+- **obsidian-markdown** - Markdown do Obsidian com wikilinks, embeds, callouts, properties, tags
+- **obsidian-bases** - Bases (.base) com views, filtros, formulas, sumarios
+- **json-canvas** - JSON Canvas (.canvas) com nos, arestas, grupos, conexoes
+- **obsidian-cli** - CLI do Obsidian para interagir com vaults em execucao
+- **defuddle** - Extrai markdown limpo de paginas web
+
+### Skills Personalizadas do Escritorio
+- **obsidian-workflow-juridico** - Workflow diario: processar Inbox, atualizar MOCs, controlar prazos
+- **obsidian-canvas-juridico** - Mapas visuais: dashboard, mapa de cliente, fluxo processual
+
+### Comandos Obsidian (Slash Commands)
+- `/obsidian-setup` - Configura vault completo do escritorio
+- `/obsidian-processar-inbox` - Processa e classifica notas da Inbox
+- `/obsidian-daily` - Cria daily note com prazos e audiencias do dia
+- `/obsidian-canvas` - Gera mapas visuais (Canvas) do vault
+
+### Estrutura do Vault (`obsidian-vault/`)
+- `00-Inbox/` - Notas rapidas e capturas a processar
+- `01-Clientes/` - Fichas de clientes (PF e PJ)
+- `02-Processos/` - Por area (Trabalhista, Civel, Condominial, Imobiliario, Familia)
+- `03-Modelos/` - Minutas e templates reutilizaveis
+- `04-Jurisprudencia/` - Decisoes relevantes por tema
+- `05-Estudos/` - Artigos, anotacoes, pesquisas
+- `06-Reunioes/` - Atas de reunioes e audiencias
+- `07-Financeiro/` - Controle de honorarios e custas
+- `08-Marketing/` - Conteudo juridico para redes
+- `99-Templates/` - Templates Obsidian padronizados
+- `MOC-*.md` - Maps of Content por area
+
+### Como Usar
+1. Baixe o Obsidian gratis em obsidian.md (uso pessoal gratuito)
+2. Abra a pasta `obsidian-vault/` como vault no Obsidian
+3. Use Claude Code dentro do vault: `cd obsidian-vault && claude`
+4. Claude le, escreve e organiza notas automaticamente
+5. Wikilinks `[[nota]]` conectam tudo, Graph View visualiza relacoes
+6. Canvas gera mapas visuais dos processos e clientes
+
 ## Convencoes
 - Todas as peticoes seguem formatacao ABNT e normas do tribunal destino
 - Valores monetarios em R$ com 2 casas decimais
