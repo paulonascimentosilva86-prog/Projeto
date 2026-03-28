@@ -7,7 +7,9 @@
     "build": "npx remotion render src/index.ts VideoJuridico out/video.mp4",
     "build:reels-condominial": "npx remotion render src/index.ts ReelsCondominial out/reels-condominial.mp4",
     "build:reels-trabalhista": "npx remotion render src/index.ts ReelsTrabalhista out/reels-trabalhista.mp4",
-    "build:all": "npm run build && npm run build:reels-condominial && npm run build:reels-trabalhista"
+    "build:advogado-condominio": "npx remotion render src/index.ts AdvogadoCondominio out/advogado-condominio.mp4",
+    "build:como-aprender-claude": "npx remotion render src/index.ts ComoAprenderClaude out/como-aprender-claude.mp4",
+    "build:all": "npm run build && npm run build:reels-condominial && npm run build:reels-trabalhista && npm run build:advogado-condominio && npm run build:como-aprender-claude"
   },
   "keywords": ["remotion", "juridico", "motion-graphics", "advocacia"],
   "author": "Paulo Nascimento - Advocacia Integrada",

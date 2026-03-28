@@ -1,5 +1,7 @@
 import { Composition } from "remotion";
 import { JuridicoVideo } from "./JuridicoVideo";
+import { AdvogadoCondominio } from "./AdvogadoCondominio";
+import { ComoAprenderClaude } from "./ComoAprenderClaude";
 
 export const RemotionRoot = () => {
   return (
@@ -63,6 +65,22 @@ export const RemotionRoot = () => {
           corSecundaria: "#e2e8f0",
           corDestaque: "#d69e2e",
         }}
+      />
+      <Composition
+        id="AdvogadoCondominio"
+        component={AdvogadoCondominio}
+        durationInFrames={1080}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ComoAprenderClaude"
+        component={ComoAprenderClaude}
+        durationInFrames={1500}
+        fps={30}
+        width={1080}
+        height={1920}
       />
     </>
   );
