@@ -13,7 +13,7 @@
 - [x] **CALC-02**: Testes automatizados para calculadora de distrato imobiliário (retenção 25%/50%, Lei 13.786/2018)
 - [x] **CALC-03**: Testes automatizados para calculadora de reajuste de aluguel (IGP-M, IPCA, INPC)
 - [x] **CALC-04**: Testes automatizados para calculadora de insalubridade/periculosidade (graus, NRs, base de cálculo, reflexos)
-- [ ] **CALC-05**: Testes automatizados para simulador de reclamatória (verbas rescisórias, FGTS+40%, reflexos, 3 cenários)
+- [x] **CALC-05**: Testes automatizados para simulador de reclamatória (verbas rescisórias, FGTS+40%, reflexos, 3 cenários)
 - [x] **CALC-06**: Usar decimal.js com ROUND_HALF_UP para precisão financeira em todos os cálculos
 
 ### Hooks (HOOK)
@@ -82,7 +82,7 @@
 | CALC-02 | Phase 1 | Complete |
 | CALC-03 | Phase 1 | Complete |
 | CALC-04 | Phase 1 | Complete |
-| CALC-05 | Phase 1 | Pending |
+| CALC-05 | Phase 1 | Complete |
 | CALC-06 | Phase 1 | Complete |
 | HOOK-01 | Phase 2 | Pending |
 | HOOK-02 | Phase 2 | Pending |

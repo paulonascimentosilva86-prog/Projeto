@@ -12,7 +12,7 @@ O projeto parte do ecossistema existente (48 commands, 6 agentes, 5 calculadoras
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Calculadoras Blindadas** - Testes automatizados para as 5 calculadoras com decimal.js e valores determinísticos
+- [x] **Phase 1: Calculadoras Blindadas** - Testes automatizados para as 5 calculadoras com decimal.js e valores determinísticos (completed 2026-03-28)
 - [ ] **Phase 2: Hooks Bloqueantes** - Hooks exit 1 para petições incompletas + suite BATS com 3 cenários
 - [ ] **Phase 3: Linter Jurídico** - Catálogo de referências legais e validação estrutural dos 48 commands e 6 agentes
 - [ ] **Phase 4: Radar de Prazos** - Contagem em dias úteis, feriados, recesso forense e alertas de proximidade
@@ -102,7 +102,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Calculadoras Blindadas | 5/6 | In Progress|  |
+| 1. Calculadoras Blindadas | 6/6 | Complete   | 2026-03-28 |
 | 2. Hooks Bloqueantes | 0/? | Not started | - |
 | 3. Linter Jurídico | 0/? | Not started | - |
 | 4. Radar de Prazos | 0/? | Not started | - |

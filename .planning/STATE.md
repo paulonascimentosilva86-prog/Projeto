@@ -3,8 +3,8 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: verifying
-stopped_at: Completed 01-03-PLAN.md
-last_updated: "2026-03-28T21:05:20.275Z"
+stopped_at: Completed 01-calculadoras-blindadas 01-06-PLAN.md
+last_updated: "2026-03-28T21:05:35.702Z"
 last_activity: 2026-03-28
 progress:
   total_phases: 6
@@ -57,6 +57,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 01-calculadoras-blindadas P04 | 10 | 2 tasks | 2 files |
 | Phase 01 P05 | 10m | 2 tasks | 2 files |
 | Phase 01 P03 | 4 | 2 tasks | 2 files |
+| Phase 01-calculadoras-blindadas P06 | 12 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -78,6 +79,8 @@ Recent decisions affecting current work:
 - [Phase 01]: calcularMaisVantajoso retorna apenas 1 adicional (nao soma) com aviso art. 193 §2 CLT
 - [Phase 01]: calcularDistrato: retencao arredondada por linha antes de deducoes subsequentes — padrao laudo pericial juridico
 - [Phase 01]: calcularDistrato: taxa de fruicao excludente em arrependimento e atraso construtora conforme logica legal Lei 13.786/2018
+- [Phase 01-calculadoras-blindadas]: Honorarios 10% sobre subtotal (media art. 223-G CLT) antes das projecoes
+- [Phase 01-calculadoras-blindadas]: VerbaRescisoria.inclui=false sinaliza verbas nao aplicaveis por cenario sem remover do array
 
 ### Pending Todos
 
@@ -89,6 +92,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-28T21:05:11.098Z
-Stopped at: Completed 01-03-PLAN.md
+Last session: 2026-03-28T21:05:35.699Z
+Stopped at: Completed 01-calculadoras-blindadas 01-06-PLAN.md
 Resume file: None
