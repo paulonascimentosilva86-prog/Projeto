@@ -29,15 +29,26 @@ Areas: Trabalhista, Civel, Condominial, Imobiliario, Familia/Sucessoes.
 ### FASE 2 - Expansao
 - `/contrato-locacao` - Contrato de locacao (residencial/comercial)
 - `/acao-despejo` - Peticao de despejo (todas modalidades)
+- `/acao-renovatoria` - Acao renovatoria de locacao comercial
+- `/revisional-aluguel` - Acao revisional de aluguel
 - `/defesa-condomino` - Embargos a execucao condominial
+- `/destituicao-sindico` - Acao de destituicao de sindico
+- `/convencao-regimento` - Convencao e regimento interno condominial
+- `/atas-assembleia` - Atas e convocacoes de assembleia
+- `/mediacao-condominial` - Mediacao e conciliacao condominial
 - `/compra-venda-imovel` - Contrato de compra e venda de imovel
 - `/due-diligence` - Checklist de due diligence imobiliaria
 - `/notificacao-condominial` - Notificacoes extrajudiciais condominiais
 - `/divorcio` - Peticao de divorcio (judicial/extrajudicial)
 - `/alimentos` - Acao de alimentos/revisional/exoneratoria
 - `/inventario` - Inventario e partilha (judicial/extrajudicial)
+- `/guarda-visitas` - Guarda e regulamentacao de visitas
 - `/justa-causa` - Analisador de justa causa (art. 482 CLT)
+- `/acordo-trabalhista` - Acordo extrajudicial (art. 855-B CLT)
+- `/simulador-reclamatoria` - Simulador de valor de condenacao trabalhista
+- `/insalubridade-periculosidade` - Calculadora de adicionais com reflexos
 - `/compliance-trabalhista` - Checklist de conformidade trabalhista
+- `/embargos-impugnacao` - Embargos a execucao, impugnacao, embargos de terceiro
 
 ### FASE 3 - Diferenciacao
 - `/usucapiao` - Peticao de usucapiao (judicial/extrajudicial)
@@ -46,12 +57,24 @@ Areas: Trabalhista, Civel, Condominial, Imobiliario, Familia/Sucessoes.
 - `/reintegracao-posse` - Peticao possessoria com liminar
 - `/reurb` - Regularizacao fundiaria urbana
 - `/lgpd` - Diagnostico de conformidade LGPD
+- `/gerador-conteudo` - Marketing juridico (artigos, posts, FAQ)
 
-### Produtividade
+### Calculadoras
+- `/calculadora-condominial` - Planilha de debito condominial discriminada
+- `/calculadora-distrato` - Calculo de distrato imobiliario (Lei 13.786/2018)
+- `/calculadora-aluguel` - Reajuste de aluguel por indice (IGP-M, IPCA, INPC)
+- `/insalubridade-periculosidade` - Adicionais trabalhistas com reflexos
+- `/simulador-reclamatoria` - Estimativa de condenacao trabalhista (3 cenarios)
+
+### Produtividade e Comunicacao
 - `/relatorio-cliente` - Relatorio de andamento processual
 - `/proposta-honorarios` - Proposta profissional de honorarios
+- `/parecer-custos` - Estimativa de custas e despesas processuais
 - `/minuta-padrao` - Banco de minutas adaptativas
+- `/modelo-email` - Modelos de e-mail e mensagem ao cliente
 - `/pesquisa-jurisprudencia` - Pesquisa jurisprudencial dirigida
+- `/conversor-linguagem` - Traduz juridiques para linguagem acessivel
+- `/analise-processo` - Triagem e analise rapida de processo
 
 ## Agentes Especializados
 - **Agente Trabalhista** - Especialista em direito do trabalho
