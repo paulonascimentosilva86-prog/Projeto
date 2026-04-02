@@ -1,0 +1,20 @@
+# Dependencias para os exemplos de cookbooks
+# Escritorio Paulo Nascimento - Advocacia Integrada
+
+# API Claude
+anthropic>=0.40.0
+
+# Agent SDK (opcional - para agentes autonomos)
+# claude-code-sdk>=1.0.0
+
+# RAG - Bancos vetoriais (escolha um)
+# chromadb>=0.5.0        # ChromaDB - local, facil de usar
+# pinecone-client>=3.0   # Pinecone - cloud, escalavel
+# pgvector>=0.3.0        # pgvector - PostgreSQL com vetores
+
+# Embeddings (para RAG)
+# voyageai>=0.3.0        # Voyage AI - embeddings de alta qualidade
+
+# Utilitarios
+# python-dotenv>=1.0.0   # Variaveis de ambiente
+# pydantic>=2.0          # Validacao de dados estruturados

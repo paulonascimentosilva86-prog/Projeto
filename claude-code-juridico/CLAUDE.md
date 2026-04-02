@@ -84,6 +84,30 @@ Areas: Trabalhista, Civel, Condominial, Imobiliario, Familia/Sucessoes.
 - **Agente Familia** - Especialista em familia e sucessoes
 - **Agente Produtividade** - Gestao, comunicacao e produtividade
 
+## Cookbooks e Integracoes com API Claude
+
+Diretorio `cookbooks/` com guias e exemplos praticos baseados no repositorio oficial
+[anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks):
+
+- **GUIA_COOKBOOKS.md** - Guia completo com todos os cookbooks relevantes para advocacia
+- **exemplos/rag_juridico.py** - RAG para pesquisa de jurisprudencia e legislacao
+- **exemplos/classificador_processos.py** - Triagem automatizada de casos por area
+- **exemplos/tools_juridicos.py** - Ferramentas (calculadoras, prazos, prescricao) via Tool Use
+- **exemplos/padroes_agentes.py** - 4 padroes: roteamento, encadeamento, orquestrador, avaliador
+- **exemplos/agent_sdk_juridico.py** - Agentes autonomos com Claude Agent SDK
+- **exemplos/sumarizador_decisoes.py** - Resumo de decisoes para cliente e advogado
+
+### Cookbooks Mais Relevantes
+| Tema | Aplicacao |
+|------|-----------|
+| RAG | Base de jurisprudencia e legislacao |
+| Classificacao | Triagem e roteamento de processos |
+| Sumarizacao | Resumo de decisoes e movimentacoes |
+| Tool Use | Calculadoras e consultas automaticas |
+| Padroes de Agentes | Coordenacao dos 6 agentes do escritorio |
+| Agent SDK | Automacao completa de fluxos juridicos |
+| Multimodal | Analise de documentos escaneados |
+
 ## Convencoes
 - Todas as peticoes seguem formatacao ABNT e normas do tribunal destino
 - Valores monetarios em R$ com 2 casas decimais
