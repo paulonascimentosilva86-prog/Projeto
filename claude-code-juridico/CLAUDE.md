@@ -66,6 +66,15 @@ Areas: Trabalhista, Civel, Condominial, Imobiliario, Familia/Sucessoes.
 - `/insalubridade-periculosidade` - Adicionais trabalhistas com reflexos
 - `/simulador-reclamatoria` - Estimativa de condenacao trabalhista (3 cenarios)
 
+### Inteligencia e Automacao (Cookbooks Integrados)
+- `/triagem-caso` - Classificacao automatica de caso por area, urgencia e agente
+- `/resumir-decisao` - Resume decisoes para advogado (tecnico) e cliente (simples)
+- `/pesquisa-fundamentada` - Pesquisa juridica com legislacao, jurisprudencia e doutrina
+- `/revisar-peca` - Avalia e otimiza pecas processuais (nota 1-10 + reescrita)
+- `/caso-complexo` - Coordenacao multi-area para casos multidisciplinares
+- `/verificar-prescricao` - Consulta rapida de prescricao com alertas automaticos
+- `/analise-documento` - Extrai dados e riscos de contratos e documentos
+
 ### Produtividade e Comunicacao
 - `/relatorio-cliente` - Relatorio de andamento processual
 - `/proposta-honorarios` - Proposta profissional de honorarios
