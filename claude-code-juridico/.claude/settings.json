@@ -1,4 +1,13 @@
 {
+  "mcpServers": {
+    "perplexity-tool": {
+      "command": "node",
+      "args": ["perplexity-tool/server.js"],
+      "env": {
+        "PERPLEXITY_API_KEY": "${PERPLEXITY_API_KEY}"
+      }
+    }
+  },
   "hooks": {
     "PostToolUse": [
       {
