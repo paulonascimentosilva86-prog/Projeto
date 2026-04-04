@@ -1,0 +1,3 @@
+[submodule "claude-code-juridico/openclaude"]
+	path = claude-code-juridico/openclaude
+	url = https://github.com/Gitlawb/openclaude.git
