@@ -1,0 +1,35 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-code-juridico",
+  "description": "Sistema completo de automacao juridica com 48 comandos, 6 agentes especializados e calculadoras para advocacia full service",
+  "owner": {
+    "name": "Paulo Nascimento Advocacia Integrada",
+    "email": ""
+  },
+  "plugins": [
+    {
+      "name": "claude-code-juridico",
+      "description": "Automacao juridica completa: peticoes trabalhistas, civeis, condominiais, imobiliarias e de familia. 48 slash commands, 6 agentes especializados, calculadoras de debito e simuladores. Zero curva de aprendizado para advogados.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Paulo Nascimento Advocacia Integrada"
+      },
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/paulonascimentosilva86-prog/Projeto",
+      "tags": [
+        "juridico",
+        "advocacia",
+        "peticoes",
+        "direito-trabalho",
+        "direito-civel",
+        "direito-condominial",
+        "direito-imobiliario",
+        "direito-familia",
+        "calculadoras-juridicas",
+        "automacao-juridica"
+      ]
+    }
+  ],
+  "version": "1.0.0"
+}

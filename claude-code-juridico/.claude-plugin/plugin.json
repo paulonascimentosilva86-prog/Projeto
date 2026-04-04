@@ -1,0 +1,25 @@
+{
+  "name": "claude-code-juridico",
+  "version": "1.0.0",
+  "description": "Sistema de agentes e skills especializados para advocacia full service - Paulo Nascimento Advocacia Integrada",
+  "author": {
+    "name": "Paulo Nascimento Advocacia Integrada"
+  },
+  "repository": "https://github.com/paulonascimentosilva86-prog/Projeto",
+  "homepage": "https://github.com/paulonascimentosilva86-prog/Projeto",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "juridico",
+    "advocacia",
+    "direito",
+    "peticoes",
+    "trabalhista",
+    "civel",
+    "condominial",
+    "imobiliario"
+  ],
+  "skills": "../.claude/skills/",
+  "commands": "../.claude/commands/"
+}
