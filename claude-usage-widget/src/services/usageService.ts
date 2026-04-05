@@ -22,7 +22,7 @@ export function clearCredentials(): void {
 
 export async function fetchUsage(credentials: Credentials): Promise<ClaudeUsageResponse> {
   if (credentials.oauthToken) {
-    const response = await fetch('/api/oauth/usage', {
+    const response = await fetch('https://api.anthropic.com/api/oauth/usage', {
       headers: {
         'Authorization': `Bearer ${credentials.oauthToken}`,
         'anthropic-beta': 'oauth-2025-04-20',
@@ -36,11 +36,12 @@ export async function fetchUsage(credentials: Credentials): Promise<ClaudeUsageR
 
   if (credentials.sessionKey && credentials.organizationId) {
     const response = await fetch(
-      `/api/organizations/${credentials.organizationId}/usage`,
+      `https://claude.ai/api/organizations/${credentials.organizationId}/usage`,
       {
         headers: {
           'Cookie': `sessionKey=${credentials.sessionKey}`,
         },
+        credentials: 'include',
       }
     );
     if (!response.ok) {
@@ -50,4 +51,18 @@ export async function fetchUsage(credentials: Credentials): Promise<ClaudeUsageR
   }
 
   throw new Error('Credenciais incompletas. Configure um token OAuth ou Session Key + Organization ID.');
+}
+
+// Dados de demonstracao para preview/teste
+export function getDemoUsage(): ClaudeUsageResponse {
+  return {
+    five_hour: {
+      utilization: 42,
+      resets_at: new Date(Date.now() + 3 * 60 * 60 * 1000).toISOString(),
+    },
+    seven_day: {
+      utilization: 67,
+      resets_at: new Date(Date.now() + 4 * 24 * 60 * 60 * 1000).toISOString(),
+    },
+  };
 }

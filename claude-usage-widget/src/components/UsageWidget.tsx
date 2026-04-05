@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import type { ClaudeUsageResponse, Credentials } from '../types';
-import { fetchUsage, loadCredentials } from '../services/usageService';
+import { fetchUsage, loadCredentials, getDemoUsage } from '../services/usageService';
 import { ProgressBar } from './ProgressBar';
 import { CircularGauge } from './CircularGauge';
 
@@ -15,6 +15,7 @@ export function UsageWidget({ onConfigClick }: UsageWidgetProps) {
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [lastUpdate, setLastUpdate] = useState<Date | null>(null);
+  const [isDemo, setIsDemo] = useState(false);
 
   const loadUsage = useCallback(async () => {
     const credentials: Credentials | null = loadCredentials();
@@ -30,6 +31,7 @@ export function UsageWidget({ onConfigClick }: UsageWidgetProps) {
       const data = await fetchUsage(credentials);
       setUsage(data);
       setLastUpdate(new Date());
+      setIsDemo(false);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Erro desconhecido');
     } finally {
@@ -37,10 +39,23 @@ export function UsageWidget({ onConfigClick }: UsageWidgetProps) {
     }
   }, []);
 
+  const loadDemo = useCallback(() => {
+    setUsage(getDemoUsage());
+    setLastUpdate(new Date());
+    setError(null);
+    setIsDemo(true);
+    setLoading(false);
+  }, []);
+
   useEffect(() => {
-    loadUsage();
-    const interval = setInterval(loadUsage, REFRESH_INTERVAL);
-    return () => clearInterval(interval);
+    const credentials = loadCredentials();
+    if (credentials) {
+      loadUsage();
+      const interval = setInterval(loadUsage, REFRESH_INTERVAL);
+      return () => clearInterval(interval);
+    } else {
+      setLoading(false);
+    }
   }, [loadUsage]);
 
   // Atualiza countdown a cada minuto
@@ -67,9 +82,35 @@ export function UsageWidget({ onConfigClick }: UsageWidgetProps) {
         <div className="widget-error">
           <p className="error-icon">!</p>
           <p>{error}</p>
-          <button className="btn btn-primary" onClick={onConfigClick}>
-            Configurar Credenciais
-          </button>
+          <div className="widget-error-actions">
+            <button className="btn btn-primary" onClick={onConfigClick}>
+              Configurar Credenciais
+            </button>
+            <button className="btn btn-secondary" onClick={loadDemo}>
+              Ver Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Tela inicial quando nao ha credenciais
+  if (!usage && !error) {
+    return (
+      <div className="widget">
+        <div className="widget-welcome">
+          <div className="welcome-icon">C</div>
+          <h1>Claude Usage Widget</h1>
+          <p>Monitore seu uso do Claude AI em tempo real</p>
+          <div className="widget-error-actions">
+            <button className="btn btn-primary" onClick={onConfigClick}>
+              Configurar Credenciais
+            </button>
+            <button className="btn btn-secondary" onClick={loadDemo}>
+              Ver Demo
+            </button>
+          </div>
         </div>
       </div>
     );
@@ -83,9 +124,10 @@ export function UsageWidget({ onConfigClick }: UsageWidgetProps) {
       <div className="widget-header">
         <h1>Claude Usage</h1>
         <div className="widget-actions">
+          {isDemo && <span className="demo-badge">DEMO</span>}
           <button
             className="btn btn-icon"
-            onClick={loadUsage}
+            onClick={isDemo ? loadDemo : loadUsage}
             title="Atualizar"
             disabled={loading}
           >
@@ -166,7 +208,9 @@ export function UsageWidget({ onConfigClick }: UsageWidgetProps) {
           <span>
             Atualizado: {lastUpdate.toLocaleTimeString('pt-BR')}
           </span>
-          <span className="auto-refresh">Auto-refresh: 5 min</span>
+          <span className="auto-refresh">
+            {isDemo ? 'Modo demonstracao' : 'Auto-refresh: 5 min'}
+          </span>
         </div>
       )}
     </div>
