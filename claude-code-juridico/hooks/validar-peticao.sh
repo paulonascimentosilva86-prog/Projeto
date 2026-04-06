@@ -55,11 +55,16 @@ else
 fi
 
 # Verificar se multa condominial excede 2% (guardrail)
-if grep -qiE "multa.*(3|4|5|[6-9]|[1-9][0-9])%" "$FILE"; then
-    echo "  [✗ ERRO] GUARDRAIL: Multa possivelmente acima de 2% (art. 1.336 §1 CC)"
-    ERRORS=$((ERRORS + 1))
+# Apenas verifica em documentos condominiais para evitar falsos positivos (ex: multa 40% FGTS)
+if grep -qi "condominial\|condominio\|cota condominial" "$FILE"; then
+    if grep -qiE "multa.*(3|4|5|[6-9]|[1-9][0-9])%" "$FILE"; then
+        echo "  [✗ ERRO] GUARDRAIL: Multa condominial possivelmente acima de 2% (art. 1.336 §1 CC)"
+        ERRORS=$((ERRORS + 1))
+    else
+        echo "  [✓] Multa condominial dentro do limite"
+    fi
 elif grep -qi "multa" "$FILE"; then
-    echo "  [✓] Multa mencionada (verificar percentual manualmente)"
+    echo "  [✓] Multa mencionada (contexto nao-condominial)"
 fi
 
 # ─── CHECKPOINT 3: COMPLETUDE ───
