@@ -4,6 +4,20 @@
 Sistema de agentes e skills especializados para escritorio de advocacia full service.
 Areas: Trabalhista, Civel, Condominial, Imobiliario, Familia/Sucessoes.
 
+## Framework de Orquestracao
+Este projeto segue os 7 Principios do Orchestration Prompting (ver ORQUESTRADOR.md):
+1. **Linha de chegada** - Cada skill tem criterio "DONE" claro
+2. **Inputs precisos** - Dados obrigatorios com formato exato
+3. **Entregaveis definidos** - Formato, secoes, nomes de arquivo
+4. **Guardrails rigidos** - Travas duras (prescricao, multa 2%, juros 1%)
+5. **Checkpoints** - Validacao antes de gerar documento final
+6. **Roteamento** - Opus (complexo), Sonnet (padrao), Haiku (simples)
+7. **Exemplos de referencia** - Modelos aprovados para cada tipo
+
+### Comandos de Orquestracao
+- `/despacho` - Cria brief estruturado para qualquer tarefa juridica
+- `/orquestrar` - Analisa demanda e roteia para agente/skill correto
+
 ## Perfil do Escritorio
 - **Escritorio:** Paulo Nascimento - Advocacia Integrada
 - **Porte:** Medio (mix PF e PJ)
@@ -84,6 +98,17 @@ Areas: Trabalhista, Civel, Condominial, Imobiliario, Familia/Sucessoes.
 - **Agente Familia** - Especialista em familia e sucessoes
 - **Agente Produtividade** - Gestao, comunicacao e produtividade
 
+## Guardrails (Travas Duras)
+- NUNCA incluir competencias prescritas (>5 anos - art. 206 §5 I CC)
+- NUNCA aplicar multa condominial >2% (art. 1.336 §1 CC)
+- NUNCA aplicar juros >1% a.m. salvo previsao em convencao
+- NUNCA omitir valor da causa
+- NUNCA gerar documento sem CPF/CNPJ das partes
+- NUNCA apresentar pedido sem base legal expressa
+- SEMPRE aplicar honorarios 30% sobre debito atualizado
+- SEMPRE fundamentar excecao do bem de familia (art. 3 IV Lei 8.009/90)
+- SEMPRE validar checkpoints antes de gerar documento final
+
 ## Convencoes
 - Todas as peticoes seguem formatacao ABNT e normas do tribunal destino
 - Valores monetarios em R$ com 2 casas decimais
@@ -91,3 +116,8 @@ Areas: Trabalhista, Civel, Condominial, Imobiliario, Familia/Sucessoes.
 - Referencias legais sempre com artigo, diploma e ano
 - Jurisprudencia citada com tribunal, numero e data
 - Calculos condominiais: multa 2% + juros 1% a.m. + INPC + honorarios 30%
+
+## Roteamento por Complexidade
+- **Opus:** Pareceres, recursos superiores (REsp/RE), teses com multiplos fundamentos, analise de viabilidade
+- **Sonnet:** Peticoes padrao, contratos, notificacoes, calculos, workflow de cobranca
+- **Haiku:** Emails, checklists, conversao de linguagem, consultas rapidas
