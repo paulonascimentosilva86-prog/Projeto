@@ -76,6 +76,11 @@ Areas: Trabalhista, Civel, Condominial, Imobiliario, Familia/Sucessoes.
 - `/conversor-linguagem` - Traduz juridiques para linguagem acessivel
 - `/analise-processo` - Triagem e analise rapida de processo
 
+### Voz e Audio (NOVO)
+- `/transcrever-audio` - Transcricao de audiencias, consultas e reunioes (Whisper)
+- `/gerar-audio` - Sintese de voz para documentos e videos (Coqui TTS)
+- `/pipeline-reuniao` - Pipeline completo: audio → transcricao → analise juridica
+
 ## Agentes Especializados
 - **Agente Trabalhista** - Especialista em direito do trabalho
 - **Agente Civel** - Especialista em direito civil e processual
@@ -83,6 +88,13 @@ Areas: Trabalhista, Civel, Condominial, Imobiliario, Familia/Sucessoes.
 - **Agente Imobiliario** - Especialista em direito imobiliario
 - **Agente Familia** - Especialista em familia e sucessoes
 - **Agente Produtividade** - Gestao, comunicacao e produtividade
+- **Agente Voz** - Transcricao de audios e analise juridica de gravacoes
+
+## Ferramentas de Voz (tools/)
+- `tools/transcrever.py` - Transcricao via Whisper (offline, privacidade garantida)
+- `tools/tts.py` - Sintese de voz via Coqui TTS (portugues)
+- `tools/pipeline-audio.sh` - Pipeline completo de processamento de audio
+- `instalar-voz.sh` - Instalacao de todas as dependencias de voz
 
 ## Convencoes
 - Todas as peticoes seguem formatacao ABNT e normas do tribunal destino

@@ -22,7 +22,12 @@
       "Bash(ls *)",
       "Bash(cat *)",
       "Bash(date *)",
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "Bash(pip3 *)",
+      "Bash(bash tools/pipeline-audio.sh *)",
+      "Bash(bash instalar-voz.sh *)",
+      "Bash(mkdir -p transcricoes)",
+      "Bash(find transcricoes *)"
     ]
   }
 }
