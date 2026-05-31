@@ -22,7 +22,12 @@
       "Bash(ls *)",
       "Bash(cat *)",
       "Bash(date *)",
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "mcp__123137f6-0845-4697-a376-6d8c7a0d2134__firecrawl_search",
+      "mcp__123137f6-0845-4697-a376-6d8c7a0d2134__firecrawl_scrape",
+      "mcp__123137f6-0845-4697-a376-6d8c7a0d2134__firecrawl_extract",
+      "WebFetch",
+      "WebSearch"
     ]
   }
 }

@@ -85,6 +85,7 @@ Areas: Trabalhista, Civel, Condominial, Imobiliario, Familia/Sucessoes.
 - **Agente Imobiliario** - Especialista em direito imobiliario
 - **Agente Familia** - Especialista em familia e sucessoes
 - **Agente Produtividade** - Gestao, comunicacao e produtividade
+- **Hermes** - Pesquisa juridica em tempo real + inteligencia de mercado (busca web, curadoria de fontes, pacote NotebookLM, slides, tabela de estrategia)
 
 ## Convencoes
 - Todas as peticoes seguem formatacao ABNT e normas do tribunal destino
