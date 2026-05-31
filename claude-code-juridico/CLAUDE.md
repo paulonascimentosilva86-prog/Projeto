@@ -73,6 +73,7 @@ Areas: Trabalhista, Civel, Condominial, Imobiliario, Familia/Sucessoes.
 - `/minuta-padrao` - Banco de minutas adaptativas
 - `/modelo-email` - Modelos de e-mail e mensagem ao cliente
 - `/pesquisa-jurisprudencia` - Pesquisa jurisprudencial dirigida
+- `/pesquisa-profunda` - Pesquisa em tempo real na web + fontes curadas para NotebookLM
 - `/conversor-linguagem` - Traduz juridiques para linguagem acessivel
 - `/analise-processo` - Triagem e analise rapida de processo
 
