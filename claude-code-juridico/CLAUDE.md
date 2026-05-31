@@ -74,6 +74,7 @@ Areas: Trabalhista, Civel, Condominial, Imobiliario, Familia/Sucessoes.
 - `/modelo-email` - Modelos de e-mail e mensagem ao cliente
 - `/pesquisa-jurisprudencia` - Pesquisa jurisprudencial dirigida
 - `/pesquisa-profunda` - Pesquisa em tempo real na web + fontes curadas para NotebookLM
+- `/workflow-pesquisa` - Fluxo completo: pesquisa → curadoria → slide cliente + tabela estratégia + insumo /pesquisa-jurisprudencia
 - `/conversor-linguagem` - Traduz juridiques para linguagem acessivel
 - `/analise-processo` - Triagem e analise rapida de processo
 
