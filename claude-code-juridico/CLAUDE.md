@@ -66,6 +66,9 @@ Areas: Trabalhista, Civel, Condominial, Imobiliario, Familia/Sucessoes.
 - `/insalubridade-periculosidade` - Adicionais trabalhistas com reflexos
 - `/simulador-reclamatoria` - Estimativa de condenacao trabalhista (3 cenarios)
 
+### Agente de Pesquisa Autonoma
+- `/pesquisa-agente` - Pipeline completo: busca jurisprudencia → analisa → salva como memoria persistente em `memoria/jurisprudencia/[tema].md`
+
 ### Produtividade e Comunicacao
 - `/relatorio-cliente` - Relatorio de andamento processual
 - `/proposta-honorarios` - Proposta profissional de honorarios
@@ -83,6 +86,15 @@ Areas: Trabalhista, Civel, Condominial, Imobiliario, Familia/Sucessoes.
 - **Agente Imobiliario** - Especialista em direito imobiliario
 - **Agente Familia** - Especialista em familia e sucessoes
 - **Agente Produtividade** - Gestao, comunicacao e produtividade
+
+## Memoria Persistente
+
+O diretorio `memoria/` e o cerebro acumulado do escritorio:
+- `memoria/jurisprudencia/` - Pesquisas salvas automaticamente pelo `/pesquisa-agente`
+- `memoria/teses/` - Teses juridicas consolidadas
+- `memoria/escritorio/` - Perfil e parametros do escritorio
+
+Ao gerar qualquer peca, consultar primeiro `memoria/jurisprudencia/` se houver arquivo sobre o tema.
 
 ## Convencoes
 - Todas as peticoes seguem formatacao ABNT e normas do tribunal destino
